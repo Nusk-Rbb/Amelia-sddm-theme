@@ -5,9 +5,19 @@ A theme for the [SDDM login manager](https://github.com/sddm/sddm).
 - Screen resolution: 1080p
 - Font: Open sans
 
+### Preview
+
+You can easily change how it looks in **[config](./theme.conf)**. 
+Here are some examples:
+
+![Preview](./Previews/preview1.png)
+![Preview](./Previews/preview2.png)
+![Preview](./Previews/preview3.png)
+![Preview](./Previews/preview4.png)
+
 ### Dependencies
 
-#### Arch, Void
+#### Arch
 ```sh
 sddm qt6-svg
 ```
@@ -17,8 +27,8 @@ sddm qt6-svg
 1. Clone this repository, copy fonts to `/usr/share/fonts/`:
 
    ```sh
-   sudo git clone https://github.com/keyitdev/sddm-astronaut-theme.git /usr/share/sddm/themes/sddm-astronaut-theme
-   sudo cp /usr/share/sddm/themes/sddm-astronaut-theme/Fonts/* /usr/share/fonts/
+   sudo git clone https://github.com/Nusk-Rbb/amelia-sddm-theme.git /usr/share/sddm/themes/amelia-sddm-theme
+   sudo cp /usr/share/sddm/themes/amelia-sddm-theme/Fonts/* /usr/share/fonts/
    ```
 
 2. Then edit `/etc/sddm.conf`, so that it looks like this:
