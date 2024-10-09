@@ -1,12 +1,12 @@
 [SddmGreeterTheme]
-Name=sddm-astronaut-theme
-Description=sddm-astronaut-theme
-Author=keyitdev
+Name=Amelia-sddm-theme
+Description=Amelia-sddm-theme
+Author=NuskRbb
 License=GPL-3.0-or-later
 Type=sddm-theme
 Version=1.1
-Website=https://github.com/Keyitdev/sddm-astronaut-theme
-Screenshot=Previews/preview.png
+Website=https://github.com/Nusk-Rbb/Amelia-addm-theme
+Screenshot=Previews/preview4.png
 MainScript=Main.qml
 ConfigFile=theme.conf
 TranslationsDirectory=translations
