@@ -12,16 +12,15 @@ You can easily change how it looks in **[config](./theme.conf)**.
 Here are some examples:
 
 Default:
-![Preview](./Previews/preview4.png)
 ![Preview](./Previews/preview1.png)
 ![Preview](./Previews/preview2.png)
 ![Preview](./Previews/preview3.png)
+![Preview](./Previews/preview4.png)
 
 ### Dependencies
 
-#### Arch
 ```sh
-sddm qt6-svg
+sudo pacman -S sddm qt6-svg
 ```
 
 ### Install
@@ -39,6 +38,12 @@ sddm qt6-svg
     echo "[Theme]
     Current=amelia-sddm-theme" | sudo tee /etc/sddm.conf
     ```
+
+### Test
+
+```sh
+sddm-greeter-qt6 --test-mode --theme /usr/share/sddm/themes/breeze
+```
 
 ### Credits
 
